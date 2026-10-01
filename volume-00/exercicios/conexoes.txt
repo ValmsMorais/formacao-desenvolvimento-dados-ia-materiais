@@ -1,0 +1,5 @@
+O que Python faz?
+Por que acrescentar um banco?
+Para que serve a API?
+O que Docker prepara?
+O que muda na nuvem?

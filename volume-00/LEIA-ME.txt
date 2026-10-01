@@ -1,10 +1,23 @@
-VOLUME 00 - VERSÃO 1.0
+VOLUME 00 - VERSÃO 1.1
 
-Comece pela apostila. Copie os modelos de exercicios para estudos/volume-00. Digite o programa antes de consultar exemplos. Consulte solucoes apenas após tentar.
+Leia a apostila e consulte o guia das páginas 20 e 21.
+Copie os modelos de exercicios para estudos/volume-00 e preencha suas cópias.
 
-Dados CSV: UTF-8, separador ponto e vírgula, preços com ponto decimal. Três produtos fictícios. Não há dados corporativos nem credenciais.
+README.md: apresentação e download.
+exercicios/objetivo.txt: objetivo de estudo (p. 6).
+exercicios/plano-semanal.txt: horários e retomada (p. 6).
+exercicios/ambiente.txt: versão Python, comando, pasta e resultado (pp. 12, 15, 17).
+exercicios/conexoes.txt: explique o papel das tecnologias (p. 17).
+exercicios/acompanhamento.csv: uma linha por atividade (pp. 5, 17, 21).
+exercicios/acompanhamento_exemplo.csv: exemplo preenchido; não substitui seu registro.
+dados/produtos_exemplo.csv: observe cabeçalho e três produtos fictícios (pp. 9, 17). O primeiro programa não lê esse CSV.
+exemplos/primeiro_programa.py: confira após digitar o exemplo (p. 14).
+solucoes/apresentacao_loja.py: compare apenas após tentar o desafio (pp. 17, 18).
 
-O programa exemplo não acessa rede, não lê o CSV e não altera arquivos. Execute no VS Code ou, na pasta do arquivo, com py primeiro_programa.py (Windows); python ou python3 conforme sua instalação.
+Os arquivos .txt e os CSVs de exercício são preenchidos ou observados; não são programas para executar.
+Execute os arquivos .py com Python 3 pelo VS Code ou pelo terminal na pasta do arquivo.
+CSV: UTF-8; separador ponto e vírgula; preços com ponto decimal.
+Não use ponto e vírgula dentro dos textos do acompanhamento. Mantenha cinco campos por linha.
 
 Repositório: https://github.com/ValmsMorais/formacao-desenvolvimento-dados-ia-materiais
-Baixe em Code > Download ZIP e extraia os arquivos antes de usar.
+Baixe pela página principal em Code > Download ZIP e extraia antes de usar.

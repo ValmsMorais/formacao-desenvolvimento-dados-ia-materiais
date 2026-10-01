@@ -1,0 +1,10 @@
+VOLUME 00 - VERSÃO 1.0
+
+Comece pela apostila. Copie os modelos de exercicios para estudos/volume-00. Digite o programa antes de consultar exemplos. Consulte solucoes apenas após tentar.
+
+Dados CSV: UTF-8, separador ponto e vírgula, preços com ponto decimal. Três produtos fictícios. Não há dados corporativos nem credenciais.
+
+O programa exemplo não acessa rede, não lê o CSV e não altera arquivos. Execute no VS Code ou, na pasta do arquivo, com py primeiro_programa.py (Windows); python ou python3 conforme sua instalação.
+
+Repositório: https://github.com/ValmsMorais/formacao-desenvolvimento-dados-ia-materiais
+Baixe em Code > Download ZIP e extraia os arquivos antes de usar.

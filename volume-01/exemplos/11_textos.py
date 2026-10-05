@@ -1,0 +1,5 @@
+nome = input("Nome do produto: ").strip()
+comando = input("Comando: ").strip().lower()
+print(f"Nome: {nome}")
+print(f"Comando: {comando}")
+print(nome == "")

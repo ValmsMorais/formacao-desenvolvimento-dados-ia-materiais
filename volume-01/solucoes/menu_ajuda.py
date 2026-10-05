@@ -1,0 +1,12 @@
+while True:
+    comando = input("continuar, ajuda ou sair: ").strip().lower()
+    if comando == "sair":
+        break
+    if comando == "ajuda":
+        print("continuar executa; sair encerra")
+        continue
+    if comando != "continuar":
+        print("Comando inválido")
+        continue
+    print("Executando uma atividade")
+print("Programa encerrado")

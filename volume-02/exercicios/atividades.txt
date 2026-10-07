@@ -1,0 +1,172 @@
+VOLUME 02 — EXERCÍCIOS
+Crie os arquivos indicados. Os exemplos vêm preenchidos; as soluções são consulta após a tentativa.
+
+Exercício 1 — Mensagem de abertura
+Arquivo local: formacao-dados-ia/volume-02/exercicios/exercicio_01.py
+Enunciado: Uma loja quer apresentar uma mensagem padrão. Defina mostrar_abertura para mostrar Loja de estudos e Produtos e pedidos, em duas linhas. Chame a função duas vezes.
+Entrada para testar: Sem teclado; os textos ficam no código.
+Resultado esperado:
+Loja de estudos
+Produtos e pedidos
+Loja de estudos
+Produtos e pedidos
+
+Exercício 2 — Saudação personalizada
+Arquivo local: formacao-dados-ia/volume-02/exercicios/exercicio_02.py
+Enunciado: Uma loja deseja cumprimentar cada cliente. Defina saudar_cliente(nome) para mostrar Olá, seguido do nome. Chame a função para Ana e Bruno.
+Entrada para testar: Argumentos no código: "Ana" e "Bruno".
+Resultado esperado:
+Olá, Ana
+Olá, Bruno
+
+Exercício 3 — Resumo do produto
+Arquivo local: formacao-dados-ia/volume-02/exercicios/exercicio_03.py
+Enunciado: Um relatório precisa mostrar produto e quantidade. Defina mostrar_resumo(produto, quantidade) e mostre ambos em uma única mensagem. Faça uma chamada posicional e outra nomeada.
+Entrada para testar: Primeira chamada: Caderno e 3. Segunda: quantidade=2 e produto="Caneta".
+Resultado esperado:
+Caderno: 3 unidades
+Caneta: 2 unidades
+
+Exercício 4 — Cálculo reutilizável
+Arquivo local: formacao-dados-ia/volume-02/exercicios/exercicio_04.py
+Enunciado: A loja deseja calcular sem depender de mensagens. Defina calcular_total(preco_centavos, quantidade) com return. Guarde o resultado de 205 e 3 em total e mostre total.
+Entrada para testar: Argumentos: 205 centavos e quantidade 3.
+Resultado esperado:
+615. A função deve devolver o número; o print deve ficar fora dela.
+
+Exercício 5 — Corrigir a entrega
+Arquivo local: formacao-dados-ia/volume-02/exercicios/exercicio_05.py
+Enunciado: Um programa tenta receber um total, mas obtém None. Escreva calcular_total com return, em vez de apenas print dentro da função. Mostre o retorno fora dela.
+Entrada para testar: Preço 100 e quantidade 2.
+Resultado esperado:
+200, sem uma linha None.
+
+Exercício 6 — Quantidade preservada
+Arquivo local: formacao-dados-ia/volume-02/exercicios/exercicio_06.py
+Enunciado: Defina quantidade = 10 fora da função. Crie triplicar(valor) para devolver valor * 3. Chame triplicar(2) e depois mostre a quantidade externa.
+Entrada para testar: Valor enviado: 2; variável externa: 10.
+Resultado esperado:
+6
+10
+
+Exercício 7 — Preço permitido
+Arquivo local: formacao-dados-ia/volume-02/exercicios/exercicio_07.py
+Enunciado: Uma loja só aceita preços positivos. Defina preco_valido(preco_centavos) para receber um inteiro e devolver True se ele for maior que zero.
+Entrada para testar: Chamadas com 205, 0 e -10, nessa ordem.
+Resultado esperado:
+True
+False
+False
+
+Exercício 8 — Entrega padrão
+Arquivo local: formacao-dados-ia/volume-02/exercicios/exercicio_08.py
+Enunciado: Um relatório normalmente mostra uma unidade. Defina mostrar_quantidade(produto, quantidade=1) e apresente produto e quantidade.
+Entrada para testar: Chame para Caneta sem quantidade e para Caderno com quantidade 3.
+Resultado esperado:
+Caneta: 1
+Caderno: 3
+
+Exercício 9 — Apresentar um total
+Arquivo local: formacao-dados-ia/volume-02/exercicios/exercicio_09.py
+Enunciado: Um pedido deve usar funções distintas para cálculo e apresentação. Defina calcular_total e formatar_dinheiro como no exemplo. Mostre o total formatado de duas unidades de 1099 centavos.
+Entrada para testar: Preço 1099; quantidade 2.
+Resultado esperado:
+R$ 21,98
+
+Exercício 10 — Atualizar um catálogo simples
+Arquivo local: formacao-dados-ia/volume-02/exercicios/exercicio_10.py
+Enunciado: Um catálogo tem Caderno e Caneta. Substitua Caneta por Borracha usando índice, acrescente Lápis com append e mostre a lista.
+Entrada para testar: Valores no código: ["Caderno", "Caneta"].
+Resultado esperado:
+['Caderno', 'Borracha', 'Lápis']
+
+Exercício 11 — Preservar a lista inicial
+Arquivo local: formacao-dados-ia/volume-02/exercicios/exercicio_11.py
+Enunciado: Você quer acrescentar Caneta em uma versão alternativa de um catálogo sem mudar a lista inicial. Crie original com Caderno, faça copy e acrescente Caneta somente na cópia. Mostre ambas.
+Entrada para testar: Lista original: ["Caderno"].
+Resultado esperado:
+['Caderno']
+['Caderno', 'Caneta']
+
+Exercício 12 — Acrescentar um produto
+Arquivo local: formacao-dados-ia/volume-02/exercicios/exercicio_12.py
+Enunciado: Uma função deve acrescentar um nome à lista recebida. Defina adicionar_nome(nomes, nome), usando append, e chame para incluir Caneta no catálogo com Caderno.
+Entrada para testar: Catálogo ["Caderno"] e argumento "Caneta".
+Resultado esperado:
+['Caderno', 'Caneta']. A função modifica a lista recebida; não é necessário atribuir seu retorno.
+
+Exercício 13 — Produto com campos
+Arquivo local: formacao-dados-ia/volume-02/exercicios/exercicio_13.py
+Enunciado: Uma loja quer reunir nome e preço da Caneta. Crie um dicionário com nome e preco_centavos, consulte os dois campos e mostre cada valor em uma linha.
+Entrada para testar: Nome Caneta e preço 205, definidos no código.
+Resultado esperado:
+Caneta
+205
+
+Exercício 14 — Campo opcional
+Arquivo local: formacao-dados-ia/volume-02/exercicios/exercicio_14.py
+Enunciado: Um produto tem nome e preço, mas não tem categoria. Consulte categoria com get, usando Sem categoria como padrão, sem modificar o dicionário.
+Entrada para testar: Produto: nome Caderno; preco_centavos 1250.
+Resultado esperado:
+Sem categoria
+
+Exercício 15 — Catálogo com três produtos
+Arquivo local: formacao-dados-ia/volume-02/exercicios/exercicio_15.py
+Enunciado: Acrescente ao catálogo do exemplo um dicionário para Borracha, preço 150. Percorra todos os produtos e mostre nome e preço em centavos.
+Entrada para testar: Catálogo do exemplo mais Borracha, 150.
+Resultado esperado:
+Caderno 1250
+Caneta 205
+Borracha 150
+
+Exercício 16 — Opções numeradas
+Arquivo local: formacao-dados-ia/volume-02/exercicios/exercicio_16.py
+Enunciado: Uma pessoa deve escolher pelo número exibido. Use enumerate para mostrar Caderno, Caneta e Borracha, começando em 1.
+Entrada para testar: Lista de três dicionários, com esses nomes.
+Resultado esperado:
+1 - Caderno
+2 - Caneta
+3 - Borracha
+
+Exercício 17 — Separar um valor
+Arquivo local: formacao-dados-ia/volume-02/exercicios/exercicio_17.py
+Enunciado: Defina separar_dinheiro para devolver a tupla com reais e centavos. Desempacote o resultado e mostre ambos em linhas separadas.
+Entrada para testar: Valor 1099 centavos.
+Resultado esperado:
+10
+99
+
+Exercício 18 — Categorias distintas
+Arquivo local: formacao-dados-ia/volume-02/exercicios/exercicio_18.py
+Enunciado: Um relatório recebe categorias repetidas. Crie um conjunto com papelaria, papelaria e escritorio. Mostre a quantidade de categorias distintas e se papelaria pertence ao conjunto.
+Entrada para testar: Valores no código: "papelaria", "papelaria", "escritorio".
+Resultado esperado:
+2
+True. Não use a ordem de exibição do conjunto como resultado obrigatório.
+
+Exercício 19 — Contrato explícito
+Arquivo local: formacao-dados-ia/volume-02/exercicios/exercicio_19.py
+Enunciado: Crie calcular_total como na seção 6 e acrescente uma docstring indicando unidade, tipos esperados e retorno. Não acrescente input dentro dela.
+Entrada para testar: Preço 205 e quantidade 3.
+Resultado esperado:
+615. A docstring não deve aparecer como uma mensagem no terminal.
+
+ATIVIDADE DE ESCOLHA — SEÇÃO 21
+Crie o arquivo local formacao-dados-ia/volume-02/exercicios/escolhas.txt, explique qual estrutura usaria para: uma fila com nomes repetidos; dados de um produto; categorias sem repetição. Não escreva código. Para entrada Ana, Ana e Bruno, a fila deve manter três posições; para categorias repetidas, o resultado deve conter somente categorias distintas. Respostas esperadas: lista, dicionário e conjunto, com justificativas ligadas a essas propriedades.
+
+PROJETO — SEÇÃO 23
+
+A loja já consegue cadastrar produtos e calcular pedidos, mas seu programa reúne muitas tarefas no mesmo bloco. Uma alteração na apresentação fica misturada às regras de cadastro e cálculo. Reorganize a aplicação para que cada operação tenha uma função e cada produto mantenha seus campos juntos.
+Escreva sua implementação no arquivo local formacao-dados-ia/volume-02/projeto/loja_funcoes.py. Ele começa somente com comentários. Os exemplos das seções anteriores estão prontos; use-os para compreender as partes. Faça sua tentativa antes de consultar a solução das seções 24 a 27 ou o arquivo local formacao-dados-ia/volume-02/solucoes/loja_funcoes.py.
+Funcionamento esperado
+Ao iniciar, apresente 1 Cadastrar, 2 Pedir e 3 Sair. O menu deve reaparecer após cada operação. A opção 3 encerra. Comece com uma lista vazia de produtos. Cada produto deve ser um dicionário com nome e preco_centavos; não mantenha duas listas paralelas.
+No cadastro, receba nome e preço em centavos. Limpe os espaços nas extremidades e rejeite nome vazio. Converta e confira o preço antes de guardar. Em um pedido, apresente os produtos numerados, receba a opção e a quantidade, confira se a opção existe e calcule preço × quantidade.
+Organização exigida
+Crie calcular_total(preco_centavos, quantidade), que devolve o inteiro calculado; formatar_dinheiro(valor_centavos), que devolve o texto em reais; ler_inteiro_positivo(pergunta), que repete a pergunta até receber um inteiro positivo; cadastrar_produto(produtos), que valida e acrescenta um dicionário; listar_produtos(produtos), que apresenta opções; fazer_pedido(produtos), que consulta e calcula; executar_loja(), que mantém a lista e controla o menu.
+Passe a lista por parâmetro às funções que precisam dela. Deixe os cálculos sem input e print. A função ler_inteiro_positivo deve reutilizar try/except ValueError e if: uma falha de conversão ou valor não positivo gera orientação e nova pergunta, sem encerrar o programa.
+Exemplo para testar
+Escolha 1; informe Caderno e 1250. Depois escolha 2; informe produto 1 e quantidade 3. O resultado deve indicar Produto: Caderno e Total: R$ 37,50. Escolha 3 para encerrar. Cadastre também Caneta com 205 e peça três unidades: Total: R$ 6,15.
+Digite abc como preço: espere uma orientação e outra pergunta de preço. Digite 0 como quantidade: espere uma orientação e outra pergunta de quantidade. Essa repetição da pergunta é uma mudança intencional em relação ao retorno direto ao menu no Volume 01. Para opção de produto inexistente, informe o problema e volte ao menu.
+Como resolver e conferir
+Comece pelas funções de cálculo e formatação, testando com valores no código. Depois crie a leitura de inteiro positivo. Implemente cadastro e listagem e, por último, pedido e menu. Use o roteiro do arquivo local formacao-dados-ia/volume-02/exercicios/testes-projeto.md para conferir a aplicação. Não é necessário preencher um relatório de progresso.
+Esta versão ainda guarda tudo em memória. Não implemente estoque, pagamento, gravação de arquivos ou banco. Esses requisitos não fazem parte deste exercício.

@@ -1,17 +1,18 @@
 # Formação em Desenvolvimento, Dados e IA — materiais
 
-Materiais gratuitos dos volumes 00 e 01. As apostilas são entregues em Word editável.
+Materiais gratuitos dos volumes 00, 01 e 02. As apostilas são entregues em Word editável.
 
 ## Organização no computador
 
-Baixe em **Code > Download ZIP** e extraia. Abra a pasta extraída que contém este README e as pastas volume-00 e volume-01. Coloque cada pasta de volume dentro da pasta local `formacao-dados-ia`. Não copie a pasta inteira com o nome do repositório para dentro de cada volume.
+Baixe em **Code > Download ZIP** e extraia. Abra a pasta extraída que contém este README e as pastas volume-00, volume-01 e volume-02. Coloque cada pasta de volume dentro da pasta local `formacao-dados-ia`. Não copie a pasta inteira com o nome do repositório para dentro de cada volume.
 
 - Pasta local `formacao-dados-ia/volume-00`: preparação e primeiro programa.
 - Pasta local `formacao-dados-ia/volume-01`: lógica, Python e loja no terminal.
+- Pasta local `formacao-dados-ia/volume-02`: funções, estruturas de dados e reorganização da loja.
 
 Cada volume contém exemplos, exercicios, projeto e solucoes. Trabalhe diretamente nos arquivos locais; não há separação entre materiais e estudos. Os caminhos escritos nas apostilas começam em `formacao-dados-ia`, independentemente de onde essa pasta esteja no computador.
 
-Leia o LEIA-ME.md do volume antes das atividades. Consulte soluções após tentar. O arquivo `volume-01/exemplos/18_erro_nome.py` contém um erro intencional para a aula de investigação.
+Leia o LEIA-ME.md do volume antes das atividades. Consulte soluções após tentar. O arquivo local `formacao-dados-ia/volume-01/exemplos/18_erro_nome.py` contém um erro intencional para a seção de investigação.
 
 ## Para quem já baixou a estrutura anterior
 

@@ -1,12 +1,11 @@
-# Volume 01
+# Volume 01 — o que está pronto e o que fazer
 
-Esta pasta do GitHub deve ficar no seu computador como pasta local `formacao-dados-ia/volume-01`. Trabalhe diretamente nos arquivos locais.
+Organize esta pasta do GitHub como pasta local `formacao-dados-ia/volume-01`.
 
-- Pasta local `formacao-dados-ia/volume-01/exemplos`: exemplos explicados na apostila.
-- Pasta local `formacao-dados-ia/volume-01/exercicios`: enunciados e seus exercícios.
-- Pasta local `formacao-dados-ia/volume-01/projeto`: projeto do volume.
-- Pasta local `formacao-dados-ia/volume-01/solucoes`: referências para consultar depois de tentar.
+1. Leia a aula antes de executar o exemplo. A pasta local `formacao-dados-ia/volume-01/exemplos` contém exemplos completos.
+2. Resolva o enunciado no arquivo local `formacao-dados-ia/volume-01/exercicios/atividades.txt`. Crie o arquivo de exercício indicado: os programas dos exercícios não vêm preenchidos. Cada enunciado informa tarefa, entrada e saída esperada.
+3. Na aula 23, abra o arquivo local `formacao-dados-ia/volume-01/projeto/loja_terminal.py`: ele começa apenas com comentários. Escreva ali menu, cadastro e pedido, nessa ordem. Preserve o código que você já fez se estiver atualizando os materiais.
+4. Depois de tentar, consulte a solução no arquivo local `formacao-dados-ia/volume-01/solucoes/loja_terminal.py` ou nas aulas 24 e 25. As duas partes da apostila formam um único programa.
+5. Execute sua implementação e use o arquivo local `formacao-dados-ia/volume-01/exercicios/testes-projeto.md` para comparar entradas e resultados.
 
-Abra a pasta local `formacao-dados-ia` no VS Code. Abra o arquivo desejado, salve e use Run Python File in Terminal. Para executar por comando, abra o terminal na pasta local que contém o arquivo e use `py nome_do_arquivo.py`, ou o comando Python validado no seu sistema.
-
-Não há planilha obrigatória de progresso. O CSV do Volume 00 é apenas dado de demonstração. O roteiro de testes do Volume 01 é leitura para comparar entradas e saídas, não é importado pelo programa. Todas as práticas destes volumes usam Python local sem serviços pagos.
+Abra a pasta local `formacao-dados-ia` no VS Code. Abra o arquivo, salve e use Run Python File in Terminal. Os campos input recebem respostas no terminal. Não cole saídas ou enunciados no código. O exemplo de erro da aula 22 falha intencionalmente.

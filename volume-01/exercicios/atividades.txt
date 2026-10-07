@@ -1,28 +1,28 @@
 VOLUME 01 — ENUNCIADOS COMPLETOS
 Exemplos prontos ficam em exemplos. Seus exercícios ficam em exercicios. O projeto começa em projeto/loja_terminal.py; a solução pronta fica em solucoes/loja_terminal.py.
 
-Aula 4 — Lógica de uma compra
+Seção 4 — Lógica de uma compra
 Onde fazer: crie o arquivo local formacao-dados-ia/volume-01/exercicios/respostas.txt.
 O que fazer: Atividade escrita, sem programa. Escreva a entrada, o processamento e a saída de uma compra. A regra é aceitar somente quantidade positiva.
 Entrada para testar: Preço: 15 reais; quantidade: 2.
 Saída esperada:
 Total: 30 reais. Para quantidade -2: rejeitar a compra e não calcular um pedido aceito.
 
-Aula 5 — Variáveis
+Seção 5 — Variáveis
 Onde fazer: crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_05.py.
-O que fazer: Use o código da aula 5 como ponto de partida. Troque o produto por Caneta. Mantenha quantidade = 3 no começo e faça quantidade = 8 antes do último print.
+O que fazer: Use o código da seção 5 como ponto de partida. Troque o produto por Caneta. Mantenha quantidade = 3 no começo e faça quantidade = 8 antes do último print.
 Entrada para testar: Não há digitação no terminal; os valores ficam no código.
 Saída esperada:
 As três linhas devem mostrar Caneta, 3 e 8, nessa ordem.
 
-Aula 6 — Tipos
+Seção 6 — Tipos
 Onde fazer: crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_06.py.
-O que fazer: Use o exemplo da aula 6. Altere somente quantidade = 3 para quantidade = "3". Execute e confira os quatro tipos.
+O que fazer: Use o exemplo da seção 6. Altere somente quantidade = 3 para quantidade = "3". Execute e confira os quatro tipos.
 Entrada para testar: Valores definidos no código: produto textual, quantidade "3", medida 0.5 e ativo True.
 Saída esperada:
 Os quatro tipos, na ordem, são str, str, float e bool. A apresentação de type inclui <class e o nome entre aspas.
 
-Aula 7 — Loja e produto
+Seção 7 — Loja e produto
 Onde fazer: crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_07.py.
 O que fazer: Escreva um programa com dois input: primeiro receba o nome da loja, depois o nome do produto. Mostre Loja: seguido do nome e Produto: seguido do produto, em linhas separadas.
 Entrada para testar: Responda Papelaria Azul à primeira pergunta e Caderno à segunda.
@@ -31,14 +31,14 @@ Loja: Papelaria Azul
 Produto: Caderno
 Execute novamente com Loja Verde e Caneta; a saída deve usar os novos nomes.
 
-Aula 8 — Conversão
+Seção 8 — Conversão
 Onde fazer: crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_08.py.
-O que fazer: Use o exemplo da aula 8: receba uma quantidade, converta com int e mostre quantidade + 1. Execute separadamente para cada entrada. Ainda não acrescente try/except.
+O que fazer: Use o exemplo da seção 8: receba uma quantidade, converta com int e mostre quantidade + 1. Execute separadamente para cada entrada. Ainda não acrescente try/except.
 Entrada para testar: Primeira execução: 7. Segunda: 0. Terceira: abc.
 Saída esperada:
-Respectivamente: 8; 1; erro ValueError. Para abc, a execução termina com erro de conversão; isso é esperado nesta aula.
+Respectivamente: 8; 1; erro ValueError. Para abc, a execução termina com erro de conversão; isso é esperado nesta seção.
 
-Aula 9 — Cálculos
+Seção 9 — Cálculos
 Onde fazer: crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_09.py.
 O que fazer: Defina preço 15 e quantidade 4. Mostre o produto desses valores, depois 20 - 3 * 2 e (20 - 3) * 2. Use um print para cada resultado.
 Entrada para testar: Não há entrada pelo teclado. Valores no código: 15 e 4.
@@ -47,53 +47,53 @@ Saída esperada:
 14
 34
 
-Aula 10 — Centavos
+Seção 10 — Centavos
 Onde fazer: crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_10.py.
-O que fazer: Use o exemplo da aula 10 com preco_centavos = 1099 e quantidade = 2. Calcule total, reais completos e centavos restantes sem arredondar.
+O que fazer: Use o exemplo da seção 10 com preco_centavos = 1099 e quantidade = 2. Calcule total, reais completos e centavos restantes sem arredondar.
 Entrada para testar: Não há entrada pelo teclado; altere os valores no código.
 Saída esperada:
 Total em centavos: 2198
 Reais: 21
 Centavos: 98
 
-Aula 11 — Comparações
+Seção 11 — Comparações
 Onde fazer: crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_11.py.
-O que fazer: Use as seis comparações da aula 11 na mesma ordem: > 0, == 3, != 3, >= 5, < 5 e <= 3. Execute com quantidade = 0, depois 5 e depois -1.
+O que fazer: Use as seis comparações da seção 11 na mesma ordem: > 0, == 3, != 3, >= 5, < 5 e <= 3. Execute com quantidade = 0, depois 5 e depois -1.
 Entrada para testar: Cada execução usa um valor definido no código.
 Saída esperada:
 Para 0: False, False, True, False, True, True. Para 5: True, False, True, True, False, False. Para -1: False, False, True, False, True, True. Cada valor aparece em uma linha.
 
-Aula 12 — Blocos e indentação
+Seção 12 — Blocos e indentação
 Onde fazer: crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_12.py.
-O que fazer: Use o exemplo da aula 12. Dentro do if, após a mensagem de aceitação, acrescente print("Pedido permitido"). Depois da estrutura if/else, acrescente print("Fim do teste"). Mantenha o print de verificação já existente.
+O que fazer: Use o exemplo da seção 12. Dentro do if, após a mensagem de aceitação, acrescente print("Pedido permitido"). Depois da estrutura if/else, acrescente print("Fim do teste"). Mantenha o print de verificação já existente.
 Entrada para testar: Execute separadamente com -1, 0 e 2.
 Saída esperada:
 Para -1 ou 0: Quantidade inválida; Verificação concluída; Fim do teste. Para 2: Quantidade aceita; Pedido permitido; Verificação concluída; Fim do teste. Cada mensagem ocupa uma linha.
 
-Aula 13 — Condições combinadas
+Seção 13 — Condições combinadas
 Onde fazer: crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_13.py.
-O que fazer: Primeiro execute o exemplo da aula 13 com quantidade = 0 e preco_centavos = -10: a primeira mensagem deve rejeitar a quantidade. Depois substitua esse teste por uma condição com and que aceite quantidade entre 1 e 10, inclusive, e mostre True ou False.
+O que fazer: Primeiro execute o exemplo da seção 13 com quantidade = 0 e preco_centavos = -10: a primeira mensagem deve rejeitar a quantidade. Depois substitua esse teste por uma condição com and que aceite quantidade entre 1 e 10, inclusive, e mostre True ou False.
 Entrada para testar: No segundo teste, altere quantidade no código para 0, 1, 10 e 11, em execuções separadas.
 Saída esperada:
 Para a condição de limites: 0 → False; 1 → True; 10 → True; 11 → False. Não é necessário receber valores com input.
 
-Aula 14 — Apresentação monetária
+Seção 14 — Apresentação monetária
 Onde fazer: crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_14.py.
-O que fazer: Use o exemplo da aula 14, mantendo produto = "Caneta". Altere total_centavos para cada valor de teste e execute. Separe reais e centavos com // e %; use :02d na apresentação dos centavos.
+O que fazer: Use o exemplo da seção 14, mantendo produto = "Caneta". Altere total_centavos para cada valor de teste e execute. Separe reais e centavos com // e %; use :02d na apresentação dos centavos.
 Entrada para testar: Valores no código: 5, 100, 1099 e 3750; uma execução para cada valor.
 Saída esperada:
 A linha de total deve mostrar, respectivamente: Total: R$ 0,05; Total: R$ 1,00; Total: R$ 10,99; Total: R$ 37,50. A primeira linha continua Produto: Caneta.
 
-Aula 15 — Limpeza de textos
+Seção 15 — Limpeza de textos
 Onde fazer: crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_15.py.
-O que fazer: Use o exemplo da aula 15 com strip no nome e strip().lower() no comando. Digite os testes abaixo. Não aplique lower ao nome do produto.
+O que fazer: Use o exemplo da seção 15 com strip no nome e strip().lower() no comando. Digite os testes abaixo. Não aplique lower ao nome do produto.
 Entrada para testar: Primeiro teste: nome "  Caderno grande  ", comando "  SaIr  ". Segundo: nome com três espaços e o mesmo comando. Terceiro: nome vazio, pressionando apenas Enter. As aspas apenas mostram os limites; não as digite.
 Saída esperada:
 Primeiro: Nome: Caderno grande; Comando: sair; False. Segundo e terceiro: Nome: sem conteúdo após o rótulo; Comando: sair; True. Cada informação ocupa uma linha.
 
-Aula 16 — Repetição com contador
+Seção 16 — Repetição com contador
 Onde fazer: crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_16.py.
-O que fazer: Use o exemplo da aula 16 e mude o limite para cinco pedidos. Mantenha a atualização do contador dentro do while.
+O que fazer: Use o exemplo da seção 16 e mude o limite para cinco pedidos. Mantenha a atualização do contador dentro do while.
 Entrada para testar: Não há entrada pelo teclado.
 Saída esperada:
 Pedido 1
@@ -104,30 +104,30 @@ Pedido 5
 Fim
 Sem atualizar o contador, o laço não termina. Não é necessário executar a versão infinita.
 
-Aula 17 — Menu com ajuda
+Seção 17 — Menu com ajuda
 Onde fazer: crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_17.py.
-O que fazer: Use o exemplo da aula 17. Antes de rejeitar comandos desconhecidos, acrescente um teste para ajuda: mostre continuar executa; sair encerra e use continue. Ajuda não deve executar a atividade.
+O que fazer: Use o exemplo da seção 17. Antes de rejeitar comandos desconhecidos, acrescente um teste para ajuda: mostre continuar executa; sair encerra e use continue. Ajuda não deve executar a atividade.
 Entrada para testar: Na mesma execução, digite ajuda, continuar e sair, nessa ordem.
 Saída esperada:
 Após ajuda: continuar executa; sair encerra. Após continuar: Executando uma atividade. Após sair: Programa encerrado. O menu reaparece após as duas primeiras respostas.
 
-Aula 18 — Lista e índices
+Seção 18 — Lista e índices
 Onde fazer: crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_18.py.
 O que fazer: Crie uma lista vazia. Acrescente Caderno e Caneta com append. Mostre somente o segundo produto usando o índice correto. Depois, em um teste separado, tente consultar o índice 2.
 Entrada para testar: Valores no código, sem input.
 Saída esperada:
 Na versão correta: Caneta. No teste com índice 2: IndexError, pois a lista possui somente índices 0 e 1. Desfaça essa alteração depois do teste.
 
-Aula 19 — Percurso de uma lista
+Seção 19 — Percurso de uma lista
 Onde fazer: crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_19.py.
-O que fazer: Use o exemplo da aula 19, incluindo Borracha depois de Caderno e Caneta. Mantenha os dois laços existentes. Depois execute uma versão com nomes = [].
+O que fazer: Use o exemplo da seção 19, incluindo Borracha depois de Caderno e Caneta. Mantenha os dois laços existentes. Depois execute uma versão com nomes = [].
 Entrada para testar: Valores definidos no código.
 Saída esperada:
 Com três produtos: Caderno; Caneta; Borracha; 1 - Caderno; 2 - Caneta; 3 - Borracha, cada um em uma linha. Com lista vazia: nenhum dos dois laços mostra linhas.
 
-Aula 20 — Catálogo relacionado
+Seção 20 — Catálogo relacionado
 Onde fazer: crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_20.py.
-O que fazer: Use o exemplo da aula 20. Acrescente Borracha à lista de nomes e 150 à lista de preços, na mesma posição. Mantenha os demais produtos.
+O que fazer: Use o exemplo da seção 20. Acrescente Borracha à lista de nomes e 150 à lista de preços, na mesma posição. Mantenha os demais produtos.
 Entrada para testar: Não há entrada pelo teclado.
 Saída esperada:
 1 - Caderno
@@ -138,28 +138,28 @@ Preço: R$ 2,05
 Preço: R$ 1,50
 Se acrescentar somente o nome, a consulta do preço inexistente provoca IndexError.
 
-Aula 21 — Conversão e validação
+Seção 21 — Conversão e validação
 Onde fazer: crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_21.py.
-O que fazer: Use o exemplo completo da aula 21. Na mesma execução, envie as entradas abaixo. As entradas inválidas precisam gerar orientação e uma nova pergunta; somente a entrada positiva encerra o laço.
+O que fazer: Use o exemplo completo da seção 21. Na mesma execução, envie as entradas abaixo. As entradas inválidas precisam gerar orientação e uma nova pergunta; somente a entrada positiva encerra o laço.
 Entrada para testar: Pressione Enter sem texto; depois digite 1.5, abc, -2 e 4.
 Saída esperada:
 Para as três primeiras: Digite um número inteiro. Para -2: A quantidade deve ser positiva. Para 4: Quantidade aceita: 4, encerrando a repetição.
 
-Aula 22 — Investigar um nome incorreto
+Seção 22 — Investigar um nome incorreto
 Onde fazer: crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_22.py.
-O que fazer: Use como ponto de partida o exemplo da aula 22. Execute uma vez com produtoo para observar o erro. Depois corrija somente esse nome para produto, salve e execute novamente.
+O que fazer: Use como ponto de partida o exemplo da seção 22. Execute uma vez com produtoo para observar o erro. Depois corrija somente esse nome para produto, salve e execute novamente.
 Entrada para testar: Produto definido no código: Caderno. Sem entrada pelo teclado.
 Saída esperada:
 Antes da correção: NameError referente a produtoo. Depois: Caderno. O texto completo do erro pode variar com a versão do Python.
 
-Aula 27 — Conexões do projeto
+Seção 27 — Conexões do projeto
 Onde fazer: crie o arquivo local formacao-dados-ia/volume-01/exercicios/respostas_conexoes.txt.
 O que fazer: Atividade escrita, sem programa novo. Explique o caminho de um pedido em cinco frases: recebimento, conversão, validação, cálculo e apresentação. Indique o que acontece com o catálogo ao encerrar e qual tecnologia poderá preservá-lo.
 Entrada para testar: Exemplo para orientar a explicação: Caderno, preço 1250 centavos e quantidade 3.
 Saída esperada:
 A explicação deve chegar ao total R$ 37,50. Deve indicar que o catálogo em memória desaparece ao encerrar e que um banco poderá armazená-lo para uso futuro.
 
-Aula 30 — Revisão do projeto
+Seção 30 — Revisão do projeto
 Onde fazer: crie o arquivo local formacao-dados-ia/volume-01/exercicios/respostas_revisao.txt.
 O que fazer: Atividade escrita, sem programa novo. Explique por que usamos opcao - 1, preço em centavos e continue após uma entrada inválida.
 Entrada para testar: Exemplo: pessoa escolhe produto 2; preço é 205; uma quantidade anterior foi inválida.
@@ -167,6 +167,64 @@ Saída esperada:
 Produto 2 corresponde ao índice 1; 205 representa R$ 2,05; continue volta ao menu sem calcular com a entrada rejeitada. Use suas próprias palavras.
 
 
-PROJETO — AULAS 23 A 26
-Escreva no arquivo local formacao-dados-ia/volume-01/projeto/loja_terminal.py. Implemente menu, cadastro e pedido nessa ordem. Consulte a solução somente após tentar.
-Teste: cadastrar Caderno, preço 1250; pedir produto 1, quantidade 3 → Total: R$ 37,50. Quantidade 0 deve ser rejeitada. Escolher 3 encerra. Mais casos estão no arquivo local formacao-dados-ia/volume-01/exercicios/testes-projeto.md.
+PROJETO — SEÇÃO 23
+23. Exercício — Cadastro de produtos e cálculo de pedidos
+
+Uma loja precisa de um programa para cadastrar seus produtos e calcular o valor de uma compra. Desenvolva esse programa em Python, usando os conceitos estudados neste volume.
+
+Escreva sua implementação no arquivo local formacao-dados-ia/volume-01/projeto/loja_terminal.py. Na versão atual dos materiais, esse arquivo contém apenas comentários de orientação; o código será escrito por você. Se já começou sua implementação, preserve-a.
+
+Funcionamento esperado
+
+Ao iniciar, o programa deve apresentar este menu:
+
+1 — Cadastrar produto
+2 — Fazer pedido
+3 — Sair
+
+Depois de concluir um cadastro ou um pedido, o programa deve mostrar o menu novamente. Ele só deve encerrar quando a pessoa escolher a opção 3.
+
+Na opção 1, solicite o nome do produto e seu preço em centavos. Por exemplo, um produto que custa R$ 12,50 deve ser cadastrado com o valor 1250. Essa representação permite fazer os cálculos com números inteiros.
+
+O cadastro só deve ser aceito se o nome não estiver vazio e o preço for um número inteiro maior que zero. Guarde os nomes em uma lista e os preços em outra, mantendo a correspondência: o primeiro preço pertence ao primeiro nome, o segundo preço ao segundo nome, e assim por diante.
+
+Na opção 2, apresente os produtos cadastrados, numerados a partir de 1. Solicite o número do produto desejado e a quantidade. Calcule o total multiplicando o preço pela quantidade e apresente o resultado em reais.
+
+Se não houver produtos cadastrados, informe que é necessário cadastrar um produto antes de fazer um pedido.
+
+Tratamento de entradas inválidas
+
+Quando uma informação não puder ser aceita, mostre uma mensagem explicando o problema e volte ao menu. Não guarde um cadastro incompleto nem calcule um pedido inválido.
+
+Considere inválidos: nome vazio ou composto somente por espaços; preço ou quantidade que não sejam números inteiros positivos; número de produto que não corresponda a uma opção apresentada; opção de menu diferente de 1, 2 ou 3.
+
+Exemplo para testar
+
+Primeiro, escolha 1 e informe as respostas abaixo no terminal:
+
+Nome do produto: Caderno
+Preço em centavos: 1250
+
+O programa deve confirmar o cadastro e voltar ao menu. Em seguida, escolha 2. A lista deve apresentar:
+
+1 — Caderno
+
+Informe as seguintes respostas:
+
+Número do produto: 1
+Quantidade: 3
+
+O resultado esperado é:
+
+Produto: Caderno
+Total: R$ 37,50
+
+Repita o pedido com quantidade 0. O programa deve informar que a quantidade precisa ser maior que zero, sem calcular o pedido, e voltar ao menu. Por fim, escolha 3 e confira que a execução termina.
+
+Orientação para resolver
+
+Você pode construir e testar uma parte por vez: primeiro o menu, depois o cadastro e, por último, o pedido. Faça sua tentativa antes de consultar a solução apresentada nas seções 24 e 25.
+
+A solução completa também está no arquivo local formacao-dados-ia/volume-01/solucoes/loja_terminal.py. Ela está pronta para consulta; o arquivo da pasta local formacao-dados-ia/volume-01/projeto é destinado à sua implementação.
+
+Neste exercício, os produtos ficam guardados somente durante a execução. Ao encerrar e abrir o programa novamente, o catálogo começa vazio.

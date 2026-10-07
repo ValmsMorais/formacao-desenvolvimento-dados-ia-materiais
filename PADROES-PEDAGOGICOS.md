@@ -8,3 +8,7 @@
 - Projetos devem ter etapas ordenadas, critérios de validação e casos de teste. Soluções ficam na pasta solucoes e devem ser consultadas após a tentativa.
 - Manter Entenda a ideia, Sua vez e Erros comuns quando contribuírem para a aprendizagem. Não exigir relatórios de progresso.
 - Todas as atividades obrigatórias devem poder ser feitas gratuitamente. Entregar apostilas em Word editável; gerar PDF somente quando solicitado, a partir do Word devolvido pelo autor.
+
+## Modelo obrigatório de enunciado prático
+
+Apresentar uma situação concreta que explique a necessidade do programa. Informar o objetivo, onde escrever, o que já vem pronto, o funcionamento esperado e as regras para dados inválidos. Mostrar entradas e saídas de exemplo e explicar como testar. Encerrar com orientação de resolução e o momento de consultar a solução. Usar texto claro e desenvolvido; não substituir o enunciado por uma lista resumida de comandos. Chamar os itens numerados da apostila de seções.

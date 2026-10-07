@@ -1,0 +1,4 @@
+VOLUME 00 — PRÁTICA
+1. Execute o arquivo local formacao-dados-ia/volume-00/exemplos/primeiro_programa.py. Altere uma mensagem e confira a saída.
+2. No arquivo local formacao-dados-ia/volume-00/projeto/apresentacao_loja.py, mostre nome da loja, Produtos e pedidos e Projeto iniciado, em três linhas.
+3. Abra o arquivo local formacao-dados-ia/volume-00/exercicios/produtos_exemplo.csv. Identifique cabeçalho, separador e três produtos.

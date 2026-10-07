@@ -1,23 +1,20 @@
-# Formação em Desenvolvimento, Dados e IA
+# Formação em Desenvolvimento, Dados e IA — materiais
 
-Materiais práticos organizados por volume, com exemplos, dados fictícios, exercícios e soluções comentadas.
+Materiais gratuitos dos volumes 00 e 01. As apostilas são entregues em Word editável.
 
-## Como baixar
-1. Clique em **Code > Download ZIP**.
-2. Extraia o ZIP no seu computador.
-3. Abra `volume-00/LEIA-ME.txt`.
+## Organização no computador
 
-Não é necessário instalar Git para baixar os materiais. O ZIP contém todas as pastas publicadas; use a pasta correspondente ao volume estudado.
+Baixe em **Code > Download ZIP** e extraia. Abra a pasta extraída que contém este README e as pastas volume-00 e volume-01. Coloque cada pasta de volume dentro da pasta local `formacao-dados-ia`. Não copie a pasta inteira com o nome do repositório para dentro de cada volume.
 
-## Volume 00 — Comece aqui
-- `exemplos/`: primeiro programa explicado na apostila.
-- `exercicios/`: modelos de anotações e acompanhamento.
-- `dados/`: CSV com três produtos fictícios.
-- `solucoes/`: consulte após tentar os desafios.
+- Pasta local `formacao-dados-ia/volume-00`: preparação e primeiro programa.
+- Pasta local `formacao-dados-ia/volume-01`: lógica, Python e loja no terminal.
 
-Os códigos usam Python 3, sem dependências externas. Os exemplos foram testados em Python 3.12; o guia de instalação usa Windows e Python 3.13.
+Cada volume contém exemplos, exercicios, projeto e solucoes. Trabalhe diretamente nos arquivos locais; não há separação entre materiais e estudos. Os caminhos escritos nas apostilas começam em `formacao-dados-ia`, independentemente de onde essa pasta esteja no computador.
 
-## Dados
-CSV em UTF-8, separado por ponto e vírgula, com preços usando ponto decimal. Não há dados corporativos nem credenciais.
+Leia o LEIA-ME.md do volume antes das atividades. Consulte soluções após tentar. O arquivo `volume-01/exemplos/18_erro_nome.py` contém um erro intencional para a aula de investigação.
 
-As apostilas são distribuídas separadamente. Novos volumes serão adicionados conforme forem concluídos.
+## Para quem já baixou a estrutura anterior
+
+Reúna seus programas nas pastas locais dos volumes, preservando alterações. Não substitua automaticamente arquivos que você já editou ao baixar uma atualização. As antigas planilhas de acompanhamento e os formulários de progresso foram retirados.
+
+Os projetos evoluem por etapas; a loja do Volume 01 guarda dados somente enquanto está executando e não é um sistema comercial completo. Nenhuma atividade destes volumes exige cloud ou assinatura paga.

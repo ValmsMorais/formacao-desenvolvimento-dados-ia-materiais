@@ -1,5 +1,0 @@
-Sistema operacional:
-Versão Python:
-Comando que funciona:
-Pasta do programa:
-Resultado observado:

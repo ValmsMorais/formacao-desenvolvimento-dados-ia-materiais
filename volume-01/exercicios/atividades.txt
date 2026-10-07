@@ -1,141 +1,71 @@
-ATIVIDADES - VOLUME 01
-Trabalhe em formacao-dados-ia/estudos/volume-01.
+VOLUME 01 — ATIVIDADES
+Os enunciados não são código. Para cada atividade, use o arquivo local indicado. Não há formulário de progresso.
 
 4. Lógica: entrada, processamento e saída
-Em atividades.txt, descreva entrada, processamento e saída de uma compra de dois produtos de 15 reais. Depois descreva o que deveria acontecer se a quantidade fosse negativa. Ainda não escreva código.
-Minha tentativa:
-Resultado:
-O que expliquei sem consulta:
+No arquivo local formacao-dados-ia/volume-01/exercicios/respostas.txt, descreva entrada, processamento e saída de uma compra de dois produtos de 15 reais. Depois descreva o que deveria acontecer se a quantidade fosse negativa. Ainda não escreva código.
 
 5. Variáveis e atribuição
-Mude o nome do produto e atribua quantidade = 8 antes da última linha. Preveja as mensagens e execute. Explique por que a primeira quantidade exibida continua sendo 3.
-Minha tentativa:
-Resultado:
-O que expliquei sem consulta:
+Crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_05.py com uma versão do exemplo desta aula. Mude o nome do produto e atribua quantidade = 8 antes da última linha. Preveja as mensagens e execute. Explique por que a primeira quantidade exibida continua sendo 3.
 
 6. Nomes, comentários e tipos
-Troque quantidade = 3 por quantidade = "3" e confira type(quantidade). Explique a diferença sem dizer apenas que "tem aspas".
-Minha tentativa:
-Resultado:
-O que expliquei sem consulta:
+Crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_06.py com uma versão do exemplo desta aula. Troque quantidade = 3 por quantidade = "3" e confira type(quantidade). Explique a diferença sem dizer apenas que "tem aspas".
 
 7. Receber texto com input
-Crie um segundo input para receber o nome da loja. Mostre loja e produto em duas mensagens. Depois execute novamente para outra loja.
-Minha tentativa:
-Resultado:
-O que expliquei sem consulta:
+Crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_07.py com uma versão do exemplo desta aula. Crie um segundo input para receber o nome da loja. Mostre loja e produto em duas mensagens. Depois execute novamente para outra loja.
 
 8. Converter texto para número
-Preveja e teste entradas 7, 0 e abc. Registre o que ocorreu. Não tente esconder o erro agora: aprender a ler a mensagem é parte da atividade.
-Minha tentativa:
-Resultado:
-O que expliquei sem consulta:
+Crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_08.py com uma versão do exemplo desta aula. Preveja e teste entradas 7, 0 e abc. Confira o resultado mostrado. Não tente esconder o erro agora: aprender a ler a mensagem é parte da atividade.
 
 9. Operações e ordem do cálculo
-Calcule o total de quatro produtos de 15 reais. Depois preveja 20 - 3 * 2 e (20 - 3) * 2. Confira e explique a diferença.
-Minha tentativa:
-Resultado:
-O que expliquei sem consulta:
+Crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_09.py com uma versão do exemplo desta aula. Calcule o total de quatro produtos de 15 reais. Depois preveja 20 - 3 * 2 e (20 - 3) * 2. Confira e explique a diferença.
 
 10. Dinheiro em centavos
-Troque o preço por 1099 e a quantidade por 2. Calcule a resposta no papel e confira reais e centavos. Não arredonde o preço para 11 reais.
-Minha tentativa:
-Resultado:
-O que expliquei sem consulta:
+Crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_10.py com uma versão do exemplo desta aula. Troque o preço por 1099 e a quantidade por 2. Calcule a resposta no papel e confira reais e centavos. Não arredonde o preço para 11 reais.
 
 11. Comparações: perguntas que viram valores
-Teste quantidade = 0, 5 e -1. Antes de executar, anote quais comparações mudarão. Explique a diferença entre &gt; e &gt;= usando o valor 5.
-Minha tentativa:
-Resultado:
-O que expliquei sem consulta:
+Crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_11.py com uma versão do exemplo desta aula. Teste quantidade = 0, 5 e -1. Antes de executar, preveja quais comparações mudarão. Explique a diferença entre > e >= usando o valor 5.
 
 12. Escolher ações com if e else
-Teste -1, 0 e 2. Acrescente uma mensagem dentro do bloco aceito e outra fora da estrutura. Explique em quais entradas cada uma aparece.
-Minha tentativa:
-Resultado:
-O que expliquei sem consulta:
+Crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_12.py com uma versão do exemplo desta aula. Teste -1, 0 e 2. Acrescente uma mensagem dentro do bloco aceito e outra fora da estrutura. Explique em quais entradas cada uma aparece.
 
 13. Outras escolhas e condições combinadas
-Faça quantidade = 0 e preco_centavos = -10. Qual mensagem aparecerá? Depois escreva uma condição para aceitar quantidades entre 1 e 10, inclusive, usando and.
-Minha tentativa:
-Resultado:
-O que expliquei sem consulta:
+Crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_13.py com uma versão do exemplo desta aula. Faça quantidade = 0 e preco_centavos = -10. Qual mensagem aparecerá? Depois escreva uma condição para aceitar quantidades entre 1 e 10, inclusive, usando and.
 
 14. Formatar a apresentação do resultado
-Teste totais 5, 100, 1099 e 3750. Verifique se aparecem R$ 0,05, R$ 1,00, R$ 10,99 e R$ 37,50. Explique por que 02d é necessário.
-Minha tentativa:
-Resultado:
-O que expliquei sem consulta:
+Crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_14.py com uma versão do exemplo desta aula. Teste totais 5, 100, 1099 e 3750. Verifique se aparecem R$ 0,05, R$ 1,00, R$ 10,99 e R$ 37,50. Explique por que 02d é necessário.
 
 15. Textos: limpar e conferir a entrada
-Teste nomes Caderno grande, somente espaços e uma resposta vazia. Para um comando, digite SaIr com espaços. Explique o que foi preservado e o que foi alterado.
-Minha tentativa:
-Resultado:
-O que expliquei sem consulta:
+Crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_15.py com uma versão do exemplo desta aula. Teste nomes Caderno grande, somente espaços e uma resposta vazia. Para um comando, digite SaIr com espaços. Explique o que foi preservado e o que foi alterado.
 
 16. Repetir com while
-Faça o programa mostrar cinco pedidos. Depois escreva no papel o que aconteceria sem a atualização do contador. Se testar essa alteração, interrompa pelo botão de parada ou Ctrl+C no terminal.
-Minha tentativa:
-Resultado:
-O que expliquei sem consulta:
+Crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_16.py com uma versão do exemplo desta aula. Faça o programa mostrar cinco pedidos. Depois escreva no papel o que aconteceria sem a atualização do contador. Se testar essa alteração, interrompa pelo botão de parada ou Ctrl+C no terminal.
 
 17. Encerrar e retomar uma repetição
-Acrescente o comando ajuda, com uma mensagem e continue. Confira que ajuda não executa a atividade. Mantenha sair funcionando.
-Minha tentativa:
-Resultado:
-O que expliquei sem consulta:
+Crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_17.py com uma versão do exemplo desta aula. Acrescente o comando ajuda, com uma mensagem e continue. Confira que ajuda não executa a atividade. Mantenha sair funcionando.
 
 18. Listas: guardar mais de um valor
-Crie uma lista vazia, acrescente dois nomes com append e exiba o segundo. Preveja o índice correto. Registre o que ocorre ao consultar uma posição que não existe.
-Minha tentativa:
-Resultado:
-O que expliquei sem consulta:
+Crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_18.py com uma versão do exemplo desta aula. Crie uma lista vazia, acrescente dois nomes com append e exiba o segundo. Preveja o índice correto. Confira o erro ao consultar uma posição que não existe.
 
 19. Percorrer valores com for e range
-Acrescente Borracha e confirme que a listagem ganhou uma terceira linha sem escrever outro print. Teste uma lista vazia: o corpo do for não executará.
-Minha tentativa:
-Resultado:
-O que expliquei sem consulta:
+Crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_19.py com uma versão do exemplo desta aula. Acrescente Borracha e confirme que a listagem ganhou uma terceira linha sem escrever outro print. Teste uma lista vazia: o corpo do for não executará.
 
 20. Catálogo: manter os dados relacionados
-Acrescente Borracha ao final de nomes e 150 ao final de precos. Confira a listagem. Explique por que acrescentar somente o nome pode provocar IndexError.
-Minha tentativa:
-Resultado:
-O que expliquei sem consulta:
+Crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_20.py com uma versão do exemplo desta aula. Acrescente Borracha ao final de nomes e 150 ao final de precos. Confira a listagem. Explique por que acrescentar somente o nome pode provocar IndexError.
 
 21. Investigar e tratar uma conversão inválida
-Teste resposta vazia, 1.5, abc, -2 e 4. Classifique cada tentativa: falha de conversão, violação da regra ou entrada aceita.
-Minha tentativa:
-Resultado:
-O que expliquei sem consulta:
+Crie o arquivo local formacao-dados-ia/volume-01/exercicios/aula_21.py com uma versão do exemplo desta aula. Teste resposta vazia, 1.5, abc, -2 e 4. Classifique cada tentativa: falha de conversão, violação da regra ou entrada aceita.
 
 22. Ler um erro e testar uma hipótese
-Em 18_erro_nome.py, faça a correção e escreva: erro observado, hipótese, alteração e resultado. Depois use print temporariamente para observar um valor antes de um cálculo. Logging e ferramentas de depuração serão aprofundados em outro volume.
-Minha tentativa:
-Resultado:
-O que expliquei sem consulta:
+No arquivo local formacao-dados-ia/volume-01/exemplos/18_erro_nome.py, corrija produtoo para produto e confirme a saída Caderno. Depois use print temporariamente para observar um valor antes de um cálculo. Logging e ferramentas de depuração serão aprofundados em outro volume.
 
 23. Projeto: catálogo e pedidos no terminal
 Antes de executar a referência, escreva no papel o caminho de um cadastro aceito e de um pedido com quantidade zero. Aponte onde devem acontecer a conversão, a validação e o cálculo.
-Minha tentativa:
-Resultado:
-O que expliquei sem consulta:
 
 26. Projeto: execução e verificação
 Cadastre Caneta com preço 205 e peça três unidades. A saída deve ser R$ 6,15. Depois tente quantidade zero, opção inexistente e texto no campo numérico. Confira que o programa continua oferecendo o menu.
-Minha tentativa:
-Resultado:
-O que expliquei sem consulta:
 
 27. As conexões e a próxima evolução
 Explique em cinco frases o caminho de um pedido. Depois indique qual dado se perde ao fechar a aplicação e qual tecnologia poderá resolver esse problema.
-Minha tentativa:
-Resultado:
-O que expliquei sem consulta:
 
 30. Respostas rápidas e revisão de domínio
 Sem olhar a referência, explique por que existe opcao - 1, por que o preço está em centavos e por que um continue aparece depois de uma entrada inválida.
-Minha tentativa:
-Resultado:
-O que expliquei sem consulta:
-
